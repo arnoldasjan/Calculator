@@ -11,7 +11,7 @@ setup(
     author_email="<januska.arnoldas@gmail.com>",
     description=DESCRIPTION,
     long_description=LONG_DESCRIPTION,
-    packages='calculator',
+    packages=['calculator'],
     install_requires=[],
     include_package_data=True,
     keywords=['python', 'calculator package'],
