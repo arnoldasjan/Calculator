@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 VERSION = '1.0.0'
 DESCRIPTION = 'TC 2.1.3 Calculator Package'
@@ -11,8 +11,8 @@ setup(
     author_email="<januska.arnoldas@gmail.com>",
     description=DESCRIPTION,
     long_description=LONG_DESCRIPTION,
-    py_modules=['calculator'],
-    package_dir={'calculator'},
+    packages=find_packages(),
+    install_requires=[],
     keywords=['python', 'calculator package'],
     classifiers=[
         "Intended Audience :: Education",
