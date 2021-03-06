@@ -12,7 +12,7 @@ setup(
     description=DESCRIPTION,
     long_description=LONG_DESCRIPTION,
     py_modules=["actions", "list_actions"],
-    package_dir={'', 'calculator'},
+    package_dir={'calculator'},
     keywords=['python', 'calculator package'],
     classifiers=[
         "Intended Audience :: Education",
