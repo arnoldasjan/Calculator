@@ -11,7 +11,7 @@ setup(
     author_email="<januska.arnoldas@gmail.com>",
     description=DESCRIPTION,
     long_description=LONG_DESCRIPTION,
-    py_modules=["actions", "list_actions"],
+    py_modules=['calculator'],
     package_dir={'calculator'},
     keywords=['python', 'calculator package'],
     classifiers=[
